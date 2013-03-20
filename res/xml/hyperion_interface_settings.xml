@@ -34,6 +34,15 @@ limitations under the License.
         android:fragment="com.android.settings.hyperion.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <PreferenceScreen
+       android:key="lock_clock"
+       android:title="@string/lock_clock_title"
+       android:summary="@string/lock_clock_summary">
+       <intent android:action="android.intent.action.MAIN"
+               android:targetPackage="com.cyanogenmod.lockclock"
+               android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
+       </PreferenceScreen>
+
     <ListPreference
         android:key="lcd_density"
         android:title="@string/custom_density_title"
