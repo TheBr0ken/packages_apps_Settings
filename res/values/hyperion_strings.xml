@@ -34,8 +34,12 @@
     <string name="interface_settings_title">Interface</string>
     <string name="navigation_settings_title">Navigation</string>
     <string name="hyperion_center_title">HyperionCenter</string>
+
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="device_settings_title">Device</string>
+
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">Performance</string>
 
     <!-- About phone screen, hyperion version -->
     <string name="hyperion_version_title">Hyperion version</string>
