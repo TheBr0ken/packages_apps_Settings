@@ -990,6 +990,15 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
     <string name="listview_bounce_interpolator">Bounce</string>
 
+    <!-- Touchkey Button Light Timeout -->
+    <string name="button_timeout_title">TouchKey light timeout</string>
+    <string name="button_timeout_1s">1 second</string>
+    <string name="button_timeout_2s">2 seconds</string>
+    <string name="button_timeout_5s">5 seconds</string>
+    <string name="button_timeout_10s">10 seconds</string>
+    <string name="button_timeout_alwayson">Always On</string>
+    <string name="button_timeout_alwaysoff">Always Off</string>
+
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">Include options in the power menu for rebooting into recovery and bootloader</string>

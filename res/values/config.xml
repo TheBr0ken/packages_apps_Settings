@@ -37,4 +37,7 @@ Setting to false will disable Volume Rocker Wake support -->
     <integer name="lcd_density_max" translatable="false">160</integer>
     <integer name="lcd_density_min" translatable="false">480</integer>
 
+    <!-- Button Duration Pref -->
+    <bool name="config_show_ButtonDur">false</bool>
+
 </resources>
