@@ -1823,7 +1823,7 @@
     <string name="debug_applications_category" msgid="4206913653849771549">"Apps"</string>
     <string name="immediately_destroy_activities" msgid="8366775083630234121">"Activiteiten niet opslaan"</string>
     <string name="immediately_destroy_activities_summary" msgid="3592221124808773368">"Activiteit wissen zodra de gebruiker deze verlaat"</string>
-    <string name="app_process_limit_title" msgid="4280600650253107163">"Achtergrondproceslimiet"</string>
+    <string name="app_process_limit_title" msgid="4280600650253107163">"Achtergrondprocehyperioniet"</string>
     <string name="show_all_anrs" msgid="28462979638729082">"Alle ANR\'s weergeven"</string>
     <string name="show_all_anrs_summary" msgid="641908614413544127">"\'App reageert niet\' weerg. voor apps op achtergr."</string>
     <string name="data_usage_summary_title" msgid="3804110657238092929">"Datagebruik"</string>
@@ -1842,9 +1842,9 @@
     <string name="data_usage_label_background" msgid="3225844085975764519">"Achtergrond"</string>
     <string name="data_usage_app_restricted" msgid="3568465218866589705">"beperkt"</string>
     <string name="data_usage_disable_mobile" msgid="5211007048880167438">"Mobiele gegevens uitschakelen?"</string>
-    <string name="data_usage_disable_mobile_limit" msgid="4644364396844393848">"Mobiele gegevenslimiet instellen"</string>
-    <string name="data_usage_disable_4g_limit" msgid="6233554774946681175">"4G-gegevenslimiet instellen"</string>
-    <string name="data_usage_disable_3g_limit" msgid="2558557840444266906">"2G-3G-gegevenslimiet instellen"</string>
+    <string name="data_usage_disable_mobile_limit" msgid="4644364396844393848">"Mobiele gegevenhyperioniet instellen"</string>
+    <string name="data_usage_disable_4g_limit" msgid="6233554774946681175">"4G-gegevenhyperioniet instellen"</string>
+    <string name="data_usage_disable_3g_limit" msgid="2558557840444266906">"2G-3G-gegevenhyperioniet instellen"</string>
     <string name="data_usage_disable_wifi_limit" msgid="1394901415264660888">"Wifi-datalimiet instellen"</string>
     <string name="data_usage_tab_wifi" msgid="481146038146585749">"Wifi"</string>
     <string name="data_usage_tab_ethernet" msgid="7298064366282319911">"Ethernet"</string>
@@ -1859,10 +1859,10 @@
     <string name="data_usage_app_settings" msgid="8430240158135453271">"Instellingen voor app weergeven"</string>
     <string name="data_usage_app_restrict_background" msgid="9149728936265100841">"Achtergrondgegevens beperken"</string>
     <string name="data_usage_app_restrict_background_summary" msgid="518658001418490405">"Achtergrondgegevens in mobiele netwerken uitschakelen. Zo mogelijk worden niet-mobiele netwerken gebruikt."</string>
-    <string name="data_usage_app_restrict_background_summary_disabled" msgid="7401927377070755054">"Als u achtergrondgegevens wilt beperken voor deze app, moet u eerst een mobiele gegevenslimiet instellen."</string>
+    <string name="data_usage_app_restrict_background_summary_disabled" msgid="7401927377070755054">"Als u achtergrondgegevens wilt beperken voor deze app, moet u eerst een mobiele gegevenhyperioniet instellen."</string>
     <string name="data_usage_app_restrict_dialog_title" msgid="1613108390242737923">"Achtergrondgegevens beperken?"</string>
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Deze functie kan ervoor zorgen dat een app die afhankelijk is van achtergrondgegevens, stopt als er alleen mobiele netwerken beschikbaar zijn.\n\nU kunt meer geschikte besturingselementen voor gegevensgebruik vinden in de instellingen van de app."</string>
-    <string name="data_usage_restrict_denied_dialog" msgid="7086969103661420799">"U kunt achtergrondgegevens alleen beperken als u een mobiele gegevenslimiet heeft ingesteld."</string>
+    <string name="data_usage_restrict_denied_dialog" msgid="7086969103661420799">"U kunt achtergrondgegevens alleen beperken als u een mobiele gegevenhyperioniet heeft ingesteld."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Auto-sync gegevens inschakelen?"</string>
     <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="7312283529426636845">"Wijzigingen die u aanbrengt in uw accounts op internet worden automatisch naar uw tablet gekopieerd.\n\nSommige accounts kunnen de wijzigingen die u op uw telefoon aanbrengt ook automatisch naar het account op internet kopiëren. Een Google-account werkt op deze manier.\n\nGa naar \'Instellingen\' &gt; \'Accounts\' om te selecteren welke typen gegevens u met elk account wilt synchroniseren."</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="2374996799819303283">"Wijzigingen die u aanbrengt in uw accounts op internet worden automatisch naar uw telefoon gekopieerd.\n\nSommige accounts kunnen de wijzigingen die u op uw telefoon aanbrengt ook automatisch naar het account op internet kopiëren. Een Google-account werkt op deze manier.\n\nGa naar \'Instellingen\' &gt; \'Accounts\' om te selecteren welke typen gegevens u met elk account wilt synchroniseren."</string>
