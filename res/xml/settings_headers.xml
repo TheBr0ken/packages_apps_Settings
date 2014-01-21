@@ -86,7 +86,7 @@
     <header
         android:id="@+id/hyperion_center"
         android:title="@string/hyperion_center_title"
-        android:icon="@drawable/ic_settings_hyperioncenter">
+        android:icon="@drawable/ic_settings_center">
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.hyperion.ota"
