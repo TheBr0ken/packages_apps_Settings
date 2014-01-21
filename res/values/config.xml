@@ -33,7 +33,7 @@ very long strings too. -->
 Setting to false will disable Volume Rocker Wake support -->
     <bool name="config_show_volumeRockerWake">true</bool>
   
-  <!-- Change density on the fly -->
+   <!-- Change density on the fly -->
     <integer name="lcd_density_max" translatable="false">160</integer>
     <integer name="lcd_density_min" translatable="false">480</integer>
 
