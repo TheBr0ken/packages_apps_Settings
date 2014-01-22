@@ -25,6 +25,11 @@ limitations under the License.
         android:title="@string/battery_icon_title" />
 
     <PreferenceScreen
+        android:key="recents_panel"
+        android:fragment="com.android.settings.hyperion.RecentsPanelSettings"
+        android:title="@string/recents_panel_settings_title" />
+
+    <PreferenceScreen
         android:key="notification_drawer_qs"
         android:fragment="com.android.settings.hyperion.NotificationDrawerQsSettings"
         android:title="@string/notification_drawer_qs_title" />
