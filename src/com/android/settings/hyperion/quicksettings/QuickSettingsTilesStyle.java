@@ -159,10 +159,9 @@ public class QuickSettingsTilesStyle extends SettingsPreferenceFragment implemen
             Settings.System.putFloat(getContentResolver(),
                     Settings.System.QUICK_TILES_BG_ALPHA, 0.0f);
         }
-        if (mQsTileAlpha == null) {
-            mQsTileAlpha = (SeekBarPreference) findPreference(PREF_QUICK_TILES_ALPHA);
-            mQsTileAlpha.setInitValue((int) (transparency * 100));
-            mQsTileAlpha.setOnPreferenceChangeListener(this);
+        mQsTileAlpha = (SeekBarPreference) findPreference(PREF_QUICK_TILES_ALPHA);
+        mQsTileAlpha.setInitValue((int) (transparency * 100));
+        mQsTileAlpha.setOnPreferenceChangeListener(this);
 
         mTilesPerRow = (ListPreference) prefs.findPreference(PREF_TILES_PER_ROW);
         int tilesPerRow = Settings.System.getInt(getActivity().getContentResolver(),
