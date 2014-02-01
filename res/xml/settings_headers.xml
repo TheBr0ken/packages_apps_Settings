@@ -75,6 +75,13 @@
         android:fragment="com.android.settings.hyperion.NavigationSettings"
         android:title="@string/navigation_settings_title" />
 
+    <!-- Performance -->
+    <header
+        android:id="@+id/performance_controls"
+        android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
+        android:icon="@drawable/ic_hyperion_performance"
+        android:title="@string/performance_settings_title" />
+
     <!-- Themes -->
     <header
         android:id="@+id/theme_settings"
@@ -232,13 +239,6 @@
         android:fragment="com.android.settings.hyperion.AdvancedSettings"
         android:icon="@drawable/ic_settings_advanced"
         android:title="@string/advanced_options_settings_title" />
-
-    <!-- Performance -->
-    <header
-        android:id="@+id/performance_controls"
-        android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
-        android:icon="@drawable/ic_hyperion_performance"
-        android:title="@string/performance_settings_title" />
 
     <!-- About Device -->
     <header
