@@ -27,19 +27,31 @@
     <string name="style_title">Style</string>
     <string name="add">Add</string>
 
-    <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
-    <string name="header_category_rom_settings">Advanced settings</string>
+    <!-- General User Settings -->
+    <string name="header_category_general_settings">General settings</string>
 
     <!-- Hyperion settings screens -->
     <string name="interface_settings_title">Interface</string>
     <string name="navigation_settings_title">Navigation</string>
     <string name="hyperion_center_title">HyperionCenter</string>
 
-    <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="device_settings_title">Device</string>
+    <!-- Advanced User Settings -->
+    <string name="header_category_advanced_settings">Advanced settings</string>
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">Performance</string>
+
+    <!-- Additional Options settings -->
+    <string name="advanced_options_settings_title">Additionl options</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
+    <string name="media_scanner_on_boot_enabled">Scan media</string>
+    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
+    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
+
+    <!-- Device specific (DeviceParts) settings  -->
+    <string name="device_settings_title">Device</string>
 
     <!-- About phone screen, hyperion version -->
     <string name="hyperion_version_title">Hyperion version</string>
@@ -561,15 +573,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="button_transparency_title">Button transparency</string>
     <string name="nav_button_color_mode_summary">Change the navigation bar button color mode</string>
     <string name="navigation_bar_glow_tint_title">Glow color</string>
-
-    <!-- Advanced settings -->
-    <string name="advanced_options_settings_title">Advanced options</string>
-
-    <!-- MediaScanner behavior on boot -->
-    <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
-    <string name="media_scanner_on_boot_enabled">Scan media</string>
-    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
-    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
     <!-- Basic Numbers -->
     <string name="two">Two</string>
