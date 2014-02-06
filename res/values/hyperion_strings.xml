@@ -42,7 +42,7 @@
     <string name="performance_settings_title">Performance</string>
 
     <!-- Additional Options settings -->
-    <string name="advanced_options_settings_title">Additionl options</string>
+    <string name="advanced_options_settings_title">Additional options</string>
 
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
