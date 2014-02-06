@@ -20,6 +20,12 @@ limitations under the License.
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceScreen
+        android:id="@+id/system_app_remover"
+        android:title="@string/system_app_remover"
+        android:layout="@layout/preference_systemappremover"
+        android:fragment="com.android.settings.hyperion.SystemappRemover" />
+
+    <PreferenceScreen
         android:fragment="com.android.settings.hyperion.BatteryIconStyle"
         android:key="battery_style_pref"
         android:title="@string/battery_icon_title" />

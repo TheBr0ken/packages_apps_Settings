@@ -1791,6 +1791,15 @@
                 android:value="com.android.settings.hyperion.DisplayRotation" />
         </activity>
 
+        <activity
+            android:name="com.android.settings.hyperion.SystemappRemover"
+            android:label="@string/sizer_title"
+            android:parentActivityName="Settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
                 android:label="@string/crypt_keeper_encrypt_title">
