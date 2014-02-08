@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.cyanogenmod;
+package com.android.settings.hyperion;
 
 import java.util.*;
 
@@ -28,7 +28,7 @@ import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.text.TextUtils;
 
-import com.android.internal.util.cm.QSUtils;
+import com.android.internal.util.hyperion.DeviceUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
@@ -95,7 +95,7 @@ public class LockscreenButtons extends SettingsPreferenceFragment
             mLongBackAction, mLongHomeAction, mLongMenuAction
         };
         for (ListPreference pref : mActions) {
-            if (QSUtils.deviceSupportsTorch(getActivity())) {
+            if (DeviceUtils.deviceSupportsTorch(getActivity())) {
                 final CharSequence[] oldEntries = pref.getEntries();
                 final CharSequence[] oldValues = pref.getEntryValues();
                 ArrayList<CharSequence> newEntries = new ArrayList<CharSequence>();
@@ -161,5 +161,4 @@ public class LockscreenButtons extends SettingsPreferenceFragment
 
         return true;
     }
-
 }

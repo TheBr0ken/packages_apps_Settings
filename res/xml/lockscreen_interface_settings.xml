@@ -29,6 +29,12 @@
         android:title="@string/lockscreen_target_title" />
 
     <PreferenceScreen
+             android:fragment="com.android.settings.hyperion.LockscreenButtons"
+             android:key="lockscreen_buttons"
+             android:title="@string/lockscreen_buttons_title"
+             android:summary="@string/lockscreen_buttons_summary" />
+
+    <PreferenceScreen
              android:key="lockscreen_shortcuts"
              android:fragment="com.android.settings.hyperion.dslv.ButtonsListViewSettings"
              android:summary="@string/lockscreen_shortcuts_summary"
@@ -40,61 +46,4 @@
          <extra android:name="fragment" android:value="com.android.settings.hyperion.fragments.LockscreenShortcutFragment" />
      </PreferenceScreen>
 
-<<<<<<< HEAD
-=======
-    <PreferenceCategory
-        android:title="@string/title_general"
-        android:key="lockscreen_general_category" >
-
-        <PreferenceScreen
-            android:key="screen_security"
-            android:fragment="com.android.settings.SecuritySettings"
-            android:title="@string/screen_security_category"
-            android:summary="@string/screen_security_summary">
-            <extra android:name="cm_security" android:value="true" />
-        </PreferenceScreen>
-
-        <Preference
-            android:fragment="com.android.settings.cyanogenmod.LockscreenTargets"
-            android:key="lockscreen_targets"
-            android:summary="@string/lockscreen_target_summary"
-            android:title="@string/lockscreen_target_title" />
-
-        <PreferenceScreen
-            android:fragment="com.android.settings.cyanogenmod.LockscreenButtons"
-            android:key="lockscreen_buttons"
-            android:title="@string/lockscreen_buttons_title"
-            android:summary="@string/lockscreen_buttons_summary" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/lockscreen_widgets_category_title"
-        android:key="lockscreen_widgets_category" >
-
-        <CheckBoxPreference
-            android:key="keyguard_enable_widgets"
-            android:title="@string/lockscreen_custom_widgets_title" />
-
-        <CheckBoxPreference
-                android:key="keyguard_enable_camera"
-                android:title="@string/lockscreen_enable_camera_title" />
-
-        <!-- Lock clock -->
-        <PreferenceScreen
-            android:key="lock_clock"
-            android:title="@string/lock_clock_title"
-            android:summary="@string/lock_clock_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanogenmod.lockclock"
-                    android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
-        </PreferenceScreen>
-
-        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
-            android:key="lockscreen_maximize_widgets"
-            android:summary="@string/lockscreen_maximize_widgets_summary"
-            android:title="@string/lockscreen_maximize_widgets_title" />
-
-    </PreferenceCategory>
->>>>>>> f1a134a... LockScreen: allow long-press actions from hardware keys (2/2)
 </PreferenceScreen>
