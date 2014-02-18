@@ -30,6 +30,12 @@ limitations under the License.
         android:title="@string/recents_panel_settings_title" />
 
     <PreferenceScreen
+        android:key="progressbar_settings"
+        android:layout="@layout/preference_progressbar"
+        android:fragment="com.android.settings.hyperion.ProgressBar"
+        android:title="@string/progressbar_title" />
+
+    <PreferenceScreen
         android:key="notification_drawer_qs"
         android:fragment="com.android.settings.hyperion.NotificationDrawerQsSettings"
         android:title="@string/notification_drawer_qs_title" />
