@@ -123,8 +123,8 @@
         <attr name="margin" format="dimension" />
     </declare-styleable>
 
-     <declare-styleable name="SeekBarPreference">
-        <attr name="interval" format="integer" />
+    <declare-styleable name="SeekBarPreference">
+        <attr name="minimum" format="integer" />
         <attr name="unitsLeft" format="string" />
         <attr name="unitsRight" format="string" />
     </declare-styleable>
