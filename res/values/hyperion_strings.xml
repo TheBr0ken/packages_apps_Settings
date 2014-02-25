@@ -27,15 +27,17 @@
     <string name="style_title">Style</string>
     <string name="add">Add</string>
 
-    <!-- General User Settings -->
+    <!-- General titles -->
     <string name="header_category_general_settings">General settings</string>
+    <string name="general_category_title">General</string>
 
     <!-- Hyperion settings screens -->
     <string name="interface_settings_title">Interface</string>
     <string name="navigation_settings_title">Navigation</string>
     <string name="hyperion_center_title">HyperionCenter</string>
 
-    <!-- Advanced User Settings -->
+    <!-- Advanced titles -->
+    <string name="advanced_category_title">Advanced</string>
     <string name="header_category_advanced_settings">Advanced settings</string>
 
     <!-- Performance Settings -->
