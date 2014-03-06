@@ -40,4 +40,8 @@ Setting to false will disable Volume Rocker Wake support -->
     <!-- Button Duration Pref -->
     <bool name="config_show_ButtonDur">false</bool>
 
+    <!-- Home button Wake Support. Some devices do not support this.
+         Setting to false will disable Home button Wake support -->
+    <bool name="config_show_homeWake">false</bool>
+
 </resources>

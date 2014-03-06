@@ -61,6 +61,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_BATTERY_LIGHT = "battery_light";
     private static final String KEY_BUTTON_LIGHT = "button_light_timeout";
     private static final String KEY_SCREEN_SAVER = "screensaver";
+    private static final String KEY_HOME_WAKE = "pref_home_wake";
     private static final String KEY_VOLUME_WAKE = "pref_volume_wake";
     private static final String KEY_ANIMATION_OPTIONS = "category_animation_options";
     private static final String KEY_LISTVIEW_ANIMATION = "listview_animation";
@@ -83,6 +84,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private PreferenceScreen mNotificationLight;
     private PreferenceScreen mBatteryPulse;
     private ListPreference mButtonLights;
+    private CheckBoxPreference mHomeWake;
     private CheckBoxPreference mVolumeWake;
     private ListPreference mCrtMode;
     private ListPreference mListViewAnimation;
@@ -181,6 +183,18 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mWakeUpOptions = (PreferenceCategory) prefSet.findPreference(KEY_WAKEUP_CATEGORY);
         int counter = 0;
+        mHomeWake = (CheckBoxPreference) findPreference(KEY_HOME_WAKE);
+        if (mHomeWake != null) {
+            if (!getResources().getBoolean(R.bool.config_show_homeWake)) {
+                mWakeUpOptions.removePreference(mHomeWake);
+                counter++;
+            } else {
+                mHomeWake.setChecked(Settings.System.getInt(resolver,
+                        Settings.System.HOME_WAKE_SCREEN, 1) == 1);
+                mHomeWake.setOnPreferenceChangeListener(this);
+            }
+        }
+
         mVolumeWake = (CheckBoxPreference) findPreference(KEY_VOLUME_WAKE);
         if (mVolumeWake != null) {
             if (!getResources().getBoolean(R.bool.config_show_volumeRockerWake)) {
@@ -206,7 +220,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mWakeUpWhenPluggedOrUnplugged.setOnPreferenceChangeListener(this);
         }
 
-        if (counter == 2) {
+        if (counter == 3) {
             prefSet.removePreference(mWakeUpOptions);
         }
 
@@ -487,6 +501,11 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
         if (KEY_FONT_SIZE.equals(key)) {
             writeFontSizePreference(objValue);
+        }
+        if (KEY_HOME_WAKE.equals(key)) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.HOME_WAKE_SCREEN,
+                    (Boolean) objValue ? 1 : 0);
         }
         if (KEY_VOLUME_WAKE.equals(key)) {
             Settings.System.putInt(getContentResolver(),
